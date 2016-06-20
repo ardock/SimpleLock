@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="es.garce.simplelock_circle">24dp</dimen>
+    <dimen name="es.garce.simplelock_circle_small">16dp</dimen>
+    <dimen name="es.garce.simplelock_height">36dp</dimen>
+    <dimen name="es.garce.simplelock_padding">4dp</dimen>
+    <dimen name="es.garce.simplelock_margin">16dp</dimen>
+    <dimen name="es.garce.simplelock_btn_text">48sp</dimen>
+</resources>

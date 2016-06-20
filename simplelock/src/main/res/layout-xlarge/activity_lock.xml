@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/es.garce.simplelock_margin"
+    android:baselineAligned="false"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/es.garce.simplelock.icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/SimpleLock.Icon"/>
+
+        <TextView
+            android:id="@+id/es.garce.simplelock.description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/SimpleLock.Hint"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/es.garce.simplelock_height"
+            android:layout_margin="@dimen/es.garce.simplelock_margin"
+            android:gravity="center"
+            android:id="@+id/es.garce.simplelock.layout_pin" />
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_weight="1"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="1"
+                style="@style/SimpleLock.Button"
+                android:id="@+id/es.garce.simplelock.btn_1" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="2"
+                style="@style/SimpleLock.Button"
+                android:id="@+id/es.garce.simplelock.btn_2" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="3"
+                style="@style/SimpleLock.Button"
+                android:id="@+id/es.garce.simplelock.btn_3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="4"
+                style="@style/SimpleLock.Button"
+                android:id="@+id/es.garce.simplelock.btn_4" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="5"
+                style="@style/SimpleLock.Button"
+                android:id="@+id/es.garce.simplelock.btn_5" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="6"
+                style="@style/SimpleLock.Button"
+                android:id="@+id/es.garce.simplelock.btn_6" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="7"
+                style="@style/SimpleLock.Button"
+                android:id="@+id/es.garce.simplelock.btn_7" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="8"
+                style="@style/SimpleLock.Button"
+                android:id="@+id/es.garce.simplelock.btn_8" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="9"
+                style="@style/SimpleLock.Button"
+                android:id="@+id/es.garce.simplelock.btn_9" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/es.garce.simplelock.btn_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                android:src="@drawable/ic_done"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="0"
+                style="@style/SimpleLock.Button"
+                android:id="@+id/es.garce.simplelock.btn_0" />
+
+            <ImageView
+                android:id="@+id/es.garce.simplelock.btn_del"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                android:src="@drawable/ic_backspace_black_48dp"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

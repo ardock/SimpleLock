@@ -1,0 +1,9 @@
+<resources>
+    <string name="es.garce.simplelock.enter_pin">Enter your pin code to continue</string>
+    <string name="es.garce.simplelock.new_pin">Write your new pin code</string>
+    <string name="es.garce.simplelock.repeat_pin">Repeat your pin code to confirm</string>
+    <string name="es.garce.simplelock.repeat_error">Pin codes doesn\'t match. Try again please.</string>
+
+    <string name="es.garce.simplelock.save_error">Fatal error occur while saving the pin code</string>
+    <string name="es.garce.simplelock.check_error">Fatal error occur while retrieving the pin code</string>
+</resources>
