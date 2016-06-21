@@ -11,7 +11,7 @@ import java.security.NoSuchAlgorithmException;
  * <p>This class is used to manage pin persistence. It makes use of hash functions to secure the
  * pin code and don't save it clear.</p>
  *
- * <p>Created by Gonzalo on 20/06/2016./</p>
+ * <p>Created by Gonzalo Garce on 17/06/2016.</p>
  */
 public class SimpleLockPin {
 

@@ -5,7 +5,7 @@ import android.os.Bundle;
 /**
  * This interface is used by the lock activity to communicate with the caller.
  *
- * Created by Gonzalo Garce on 17/06/2016.
+ * <p>Created by Gonzalo Garce on 17/06/2016.</p>
  */
 public interface OnEnterPin {
     /**

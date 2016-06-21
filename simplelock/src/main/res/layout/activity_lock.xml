@@ -129,7 +129,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:scaleType="center"
-                android:src="@drawable/ic_done"/>
+                style="@style/SimpleLock.Button.Done"/>
 
             <Button
                 android:layout_width="wrap_content"
@@ -143,7 +143,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:scaleType="center"
-                android:src="@drawable/ic_backspace_black_48dp"/>
+                style="@style/SimpleLock.Button.Backspace"/>
         </TableRow>
     </TableLayout>
 </LinearLayout>

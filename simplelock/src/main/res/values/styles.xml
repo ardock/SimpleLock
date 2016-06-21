@@ -11,4 +11,10 @@
     <style name="SimpleLock.Button">
         <item name="android:textSize">@dimen/es.garce.simplelock_btn_text</item>
     </style>
+    <style name="SimpleLock.Button.Done">
+        <item name="android:src">@drawable/ic_done</item>
+    </style>
+    <style name="SimpleLock.Button.Backspace">
+        <item name="android:src">@drawable/ic_backspace_black_48dp</item>
+    </style>
 </resources>
