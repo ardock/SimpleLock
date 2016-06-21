@@ -27,3 +27,9 @@ dependencies {
     debugCompile project(path: ':simplelock', configuration: 'default')
     releaseCompile project(path: ':simplelock', configuration: 'default')
 }
+
+android {
+    lintOptions {
+        abortOnError false
+    }
+}

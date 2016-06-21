@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/modulo.iml" filepath="$PROJECT_DIR$/modulo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/simplelock/simplelock.iml" filepath="$PROJECT_DIR$/simplelock/simplelock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simplelock.iml" filepath="$PROJECT_DIR$/simplelock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simplelock/simplelock-simplelock.iml" filepath="$PROJECT_DIR$/simplelock/simplelock-simplelock.iml" />
     </modules>
   </component>
 </project>

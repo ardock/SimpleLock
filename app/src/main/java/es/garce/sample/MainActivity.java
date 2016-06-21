@@ -69,6 +69,6 @@ public class MainActivity extends AppCompatActivity implements OnEnterPin, OnNew
 
     @Override
     public void onSaved(SimpleLockNewActivity simpleLockActivity, String pin) {
-
+        simpleLockActivity.finish();
     }
 }
