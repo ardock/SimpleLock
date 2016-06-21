@@ -1,4 +1,10 @@
 # Simplelock
+<p>
+	<a href="https://github.com/GarceGon/SimpleLock/releases/tag/v1.0.1"><img src="https://img.shields.io/github/release/GarceGon/SimpleLock.svg"/></a>
+	<a href="https://bintray.com/garcegon/maven/simple-lock"><img src="https://img.shields.io/bintray/v/garcegon/maven/simple-lock.svg"/></a>
+	<a href="https://travis-ci.org/GarceGon/SimpleLock"><img src="https://img.shields.io/travis/GarceGon/SimpleLock.svg"/></a>
+	<a href="https://raw.githubusercontent.com/GarceGon/SimpleLock/master/LICENSE"><img src="https://img.shields.io/badge/license-Apache%202-blue.svg"/></a>	
+</p>
 A simple lock library for Android. Make easy to add pin codes to your application.
 
 With this library:
