@@ -19,6 +19,9 @@ android {
     lintOptions {
         abortOnError false
     }
+    adbOptions {
+        timeOutInMs 300000 // set timeout to 5 minute
+    }
 }
 
 dependencies {
